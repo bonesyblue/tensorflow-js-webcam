@@ -1,0 +1,16 @@
+{
+  "name": "tensorflow-js",
+  "version": "1.0.0",
+  "description": "Accompanying code for TensorFlowJS codelab",
+  "private": "true",
+  "repository": "https://github.com/bonesyblue/tensorflow-js-webcam",
+  "author": "Jonathan Bones",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
