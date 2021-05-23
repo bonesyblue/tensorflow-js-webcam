@@ -6,11 +6,28 @@
   "repository": "https://github.com/bonesyblue/tensorflow-js-webcam",
   "author": "Jonathan Bones",
   "license": "MIT",
+  "scripts": {
+    "start": "yarn webpack serve"
+  },
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
     "@tensorflow/tfjs": "^3.6.0"
   },
+  "peerDependencies": {
+    "@tensorflow/tfjs-backend-cpu": "^3.6.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.6.0"
+  },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@webpack-cli/generators": "^2.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.5",
+    "prettier": "^2.3.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0"
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
