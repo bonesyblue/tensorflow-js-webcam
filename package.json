@@ -7,7 +7,8 @@
   "author": "Jonathan Bones",
   "license": "MIT",
   "scripts": {
-    "start": "yarn webpack serve"
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.2.2",
