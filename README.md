@@ -1,5 +1,9 @@
 # Smart Webcam with TensorFlow.js 📸
 
+### About
+
+This project was created whilst working through the fantastic codelab: [Make a smart webcam in JavaScript with a TensorFlow.js pre-trained Machine Learning model](https://codelabs.developers.google.com/codelabs/tensorflowjs-object-detection) by [@jasonmayes](https://github.com/jasonmayes)
+
 ### Getting started
 
 ```bash
